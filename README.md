@@ -37,23 +37,23 @@ First publish takes a minute or two.
 
 Live URL: <https://skytransportsolutions-it.github.io/G3TransportBrokerage/>
 
-Every push to  republishes automatically.
+Every push to `main` republishes automatically, usually within a minute.
 
 Two files support this:
 
--  — tells Pages to serve the files as-is instead of running them through Jekyll.
--  — **blocks search engines while this is a review draft.** It must be deleted (or
-  flipped to ) before launch, or the live site will never appear in Google.
+- `.nojekyll` — tells Pages to serve the files as-is instead of running them through Jekyll.
+- `robots.txt` — **blocks search engines while this is a review draft.** It must be deleted (or
+  its `Disallow` flipped to `Allow`) before launch, or the live site will never appear in Google.
 
 ### Before this becomes the real public site
 
--  is reachable by anyone with the URL. It carries , but it is not private.
-  Delete it before launch, or move the review to a private channel.
-- The whole site is public once Pages is on, placeholder phone numbers and all. Fine for client
+- `blueprint.html` is reachable by anyone with the URL. It carries a `noindex` tag, but it is not
+  private. Delete it before launch, or share the review another way.
+- The whole site is public once Pages is on — placeholder phone numbers and all. Fine for client
   review; not fine to hand to customers.
-- A custom domain (e.g. ) is set under the same Settings -> Pages screen, which
-  writes a  file to the repo. Point a DNS  record at
-   first, then enable *Enforce HTTPS*.
+- A custom domain (e.g. `g3transportinc.com`) is set under the same **Settings → Pages** screen,
+  which writes a `CNAME` file to the repo. Point a DNS `CNAME` record at
+  `skytransportsolutions-it.github.io` first, then tick **Enforce HTTPS**.
 
 ## Read this before editing
 
