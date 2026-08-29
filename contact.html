@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact &amp; Get a Quote | G3 Transport Inc</title>
+<meta name="description" content="Request a rate for refrigerated produce freight out of California, or reach the G3 Transport Inc brokerage team 24/7.">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="assets/img/favicon-512.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap topbar__row">
+    <div class="topbar__list">
+      <span>Broker MC <span class="tbd">[MC # TBD]</span></span>
+      <span>USDOT <span class="tbd">[DOT # TBD]</span></span>
+      <span>Based in <span class="tbd">[City], CA</span></span>
+    </div>
+    <div class="topbar__list">
+      <span>Available 24/7</span>
+      <a href="tel:+15550000000" class="tbd">(555) 000-0000</a>
+      <a href="mailto:dispatch@g3transportinc.com">dispatch@g3transportinc.com</a>
+    </div>
+  </div>
+</div>
+
+<header class="header">
+  <div class="wrap header__bar">
+    <a class="brand" href="index.html" aria-label="G3 Transport Inc home">
+      <img src="assets/img/logo-primary.jpg" alt="G3 Transport Inc" width="620" height="395">
+    </a>
+    <nav class="nav" id="primary-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="coverage.html">Coverage</a>
+      <a href="about.html">About</a>
+      <a href="carriers.html">Carriers</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header__cta">
+      <a class="header__tel tbd" href="tel:+15550000000">(555) 000-0000</a>
+      <a class="btn btn--primary" href="#quote">Get a Quote</a>
+      <button class="navtoggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="pagehero pagehero--photo">
+  <div class="pagehero__bg" aria-hidden="true">
+    <img src="assets/img/photos/reefer-row.jpg" alt="" width="1400" height="788">
+  </div>
+  <div class="wrap pagehero__inner">
+    <div class="crumbs"><a href="index.html">Home</a> &rsaquo; Contact</div>
+    <h1>Get a rate</h1>
+    <p>Send us the lane and we will come back with pricing and available capacity. Someone answers around the clock.</p>
+  </div>
+</section>
+
+<!-- QUOTE FORM -->
+<section class="section section--cream" id="quote">
+  <div class="wrap split">
+    <form class="form" data-demo-form>
+      <h2 style="font-size:1.7rem">Request a quote</h2>
+      <p class="muted" style="font-size:.95rem;margin-bottom:22px">Fields marked <span class="req" style="color:var(--red)">*</span> are required.</p>
+
+      <div class="field__row">
+        <div class="field">
+          <label for="c-name">Name <span class="req">*</span></label>
+          <input id="c-name" name="name" type="text" required>
+        </div>
+        <div class="field">
+          <label for="c-company">Company <span class="req">*</span></label>
+          <input id="c-company" name="company" type="text" required>
+        </div>
+      </div>
+
+      <div class="field__row">
+        <div class="field">
+          <label for="c-email">Email <span class="req">*</span></label>
+          <input id="c-email" name="email" type="email" required>
+        </div>
+        <div class="field">
+          <label for="c-phone">Phone <span class="req">*</span></label>
+          <input id="c-phone" name="phone" type="tel" required>
+        </div>
+      </div>
+
+      <div class="field__row">
+        <div class="field">
+          <label for="c-from">Pickup city &amp; state <span class="req">*</span></label>
+          <input id="c-from" name="from" type="text" placeholder="Salinas, CA" required>
+        </div>
+        <div class="field">
+          <label for="c-to">Delivery city &amp; state <span class="req">*</span></label>
+          <input id="c-to" name="to" type="text" placeholder="Chicago, IL" required>
+        </div>
+      </div>
+
+      <div class="field__row">
+        <div class="field">
+          <label for="c-commodity">Commodity</label>
+          <select id="c-commodity" name="commodity">
+            <option>Leafy greens &amp; lettuce</option>
+            <option>Berries &amp; soft fruit</option>
+            <option>Citrus</option>
+            <option>Grapes</option>
+            <option>Tomatoes &amp; peppers</option>
+            <option>Melons</option>
+            <option>Root vegetables</option>
+            <option>Stone fruit</option>
+            <option>Nuts &amp; dry goods</option>
+            <option>Mixed / other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="c-temp">Required set point</label>
+          <input id="c-temp" name="temp" type="text" placeholder="34&deg;F">
+        </div>
+      </div>
+
+      <div class="field__row">
+        <div class="field">
+          <label for="c-weight">Weight / pallets</label>
+          <input id="c-weight" name="weight" type="text" placeholder="42,000 lb / 24 pallets">
+        </div>
+        <div class="field">
+          <label for="c-date">Ready date</label>
+          <input id="c-date" name="date" type="date">
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="c-freq">How often does this lane run?</label>
+        <select id="c-freq" name="frequency">
+          <option>One-time load</option>
+          <option>Weekly</option>
+          <option>Several times per week</option>
+          <option>Seasonal program</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="c-notes">Load details</label>
+        <textarea id="c-notes" name="notes" placeholder="Appointment windows, shipper hours, drop vs live, special handling..."></textarea>
+      </div>
+
+      <button class="btn btn--primary btn--wide" type="submit">Send Request</button>
+      <p class="form__note">Blueprint demo &mdash; this form is not connected to an inbox yet. Before launch it should deliver to the freight desk and send an auto-reply.</p>
+      <div class="formmsg">Thanks &mdash; one of our reps will follow up shortly.</div>
+    </form>
+
+    <div>
+      <span class="eyebrow">Reach us</span>
+      <h2>Talk to the freight desk</h2>
+      <p class="lead">Loads do not wait for business hours and neither do we. Call for anything time-critical &mdash; the form is for quoting lanes in advance.</p>
+
+      <ul class="infolist" style="margin-top:30px">
+        <li>
+          <div class="icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.8a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2.1z"></path></svg></div>
+          <div>
+            <h4>Freight desk</h4>
+            <p><a class="tbd" href="tel:+15550000000">(555) 000-0000</a> &middot; available 24/7</p>
+          </div>
+        </li>
+        <li>
+          <div class="icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 6-10 7L2 6"></path></svg></div>
+          <div>
+            <h4>Email</h4>
+            <p><a href="mailto:dispatch@g3transportinc.com">dispatch@g3transportinc.com</a><br><a href="mailto:carriers@g3transportinc.com">carriers@g3transportinc.com</a><br><a href="mailto:accounting@g3transportinc.com">accounting@g3transportinc.com</a></p>
+          </div>
+        </li>
+        <li>
+          <div class="icon icon--red" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></div>
+          <div>
+            <h4>Office</h4>
+            <p class="tbd">[Street address]<br>[City], CA [ZIP]</p>
+          </div>
+        </li>
+        <li>
+          <div class="icon" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15.5 14"></polyline></svg></div>
+          <div>
+            <h4>Office hours</h4>
+            <p class="tbd">[Mon&ndash;Fri, 7am&ndash;6pm PT]<br>After hours by phone</p>
+          </div>
+        </li>
+      </ul>
+
+      <span class="media media--16x9 media--shadow" style="margin-top:30px">
+        <img src="assets/img/photos/farm-aerial.jpg" alt="Farmland around the growing regions G3 Transport loads from" width="900" height="506" loading="lazy">
+      </span>
+      <p class="form__note">A Google Map embed replaces this image once the office address is confirmed.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section section--white">
+  <div class="wrap" style="max-width:860px">
+    <div class="section-head center">
+      <span class="eyebrow" style="justify-content:center">Common questions</span>
+      <h2>Before you call</h2>
+    </div>
+
+    <div class="faq">
+      <div class="faq__item">
+        <button class="faq__q" type="button" aria-expanded="false">How fast can I get a rate?</button>
+        <div class="faq__a"><p>Send the lane, commodity, weight and ready date and we typically respond the same business day. For a load that needs to move today, call us directly.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q" type="button" aria-expanded="false">Do you provide temperature records?</button>
+        <div class="faq__a"><p>Yes. The set point goes on the rate confirmation, the carrier runs continuous unless you say otherwise, and we can pull the reefer download after delivery.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q" type="button" aria-expanded="false">Are you a broker or a carrier?</button>
+        <div class="faq__a"><p>G3 Transport Inc is a licensed freight brokerage &mdash; we arrange your freight with vetted carriers rather than running our own trucks. That means we can scale capacity in peak season instead of turning you away when our own equipment is committed. Our broker authority is MC <span class="tbd">[TBD]</span> and we carry a BMC-84 surety bond of <span class="tbd">[$ amount]</span>.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q" type="button" aria-expanded="false">Do you move anything besides produce?</button>
+        <div class="faq__a"><p>Produce is our focus, but we also cover other refrigerated food-grade freight and, on return legs, dry palletised goods. Ask and we will tell you honestly whether it fits.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q" type="button" aria-expanded="false">What are your payment terms?</button>
+        <div class="faq__a"><p><span class="tbd">[Client to confirm &mdash; e.g. net 30 on approved credit, quick-pay option available.]</span></p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q" type="button" aria-expanded="false">Can you handle a full season program?</button>
+        <div class="faq__a"><p>Yes. Tell us the weeks, the volume and the destinations and we will line up committed carriers ahead of your peak rather than quoting week to week.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <span class="footer__logo"><img src="assets/img/logo-primary.jpg" alt="G3 Transport Inc" width="620" height="395"></span>
+        <p>Licensed freight brokerage arranging refrigerated produce transportation out of California to markets across the United States.</p>
+        <p class="muted" style="font-size:.85rem">Broker MC <span class="tbd">[TBD]</span> &middot; USDOT <span class="tbd">[TBD]</span></p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="coverage.html">Coverage</a></li>
+          <li><a href="carriers.html">Haul for G3</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#reefer">Refrigerated truckload</a></li>
+          <li><a href="services.html#expedited">Expedited &amp; team</a></li>
+          <li><a href="services.html#multistop">Multi-stop loads</a></li>
+          <li><a href="services.html#dry">Dry van &amp; backhaul</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Freight desk</h4>
+        <ul>
+          <li><a class="tbd" href="tel:+15550000000">(555) 000-0000</a></li>
+          <li><a href="mailto:dispatch@g3transportinc.com">dispatch@g3transportinc.com</a></li>
+          <li class="tbd">[Street address], [City], CA [ZIP]</li>
+          <li>Available 24/7</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div>&copy; <span data-year>2026</span> G3 Transport Inc. All rights reserved.</div>
+      <div>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms</a>
+        <a href="carriers.html">Carriers</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

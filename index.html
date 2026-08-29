@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>G3 Transport Inc | California Produce Freight Brokerage</title>
+<meta name="description" content="G3 Transport Inc is a licensed freight brokerage moving fresh produce out of California to markets across the United States. Refrigerated truckload capacity from a vetted carrier network, 24/7 dispatch, and temperature-tracked loads.">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="assets/img/favicon-512.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<!-- ============ TOP BAR ============ -->
+<div class="topbar">
+  <div class="wrap topbar__row">
+    <div class="topbar__list">
+      <span>Broker MC <span class="tbd">[MC # TBD]</span></span>
+      <span>USDOT <span class="tbd">[DOT # TBD]</span></span>
+      <span>Based in <span class="tbd">[City], CA</span></span>
+    </div>
+    <div class="topbar__list">
+      <span>Available 24/7</span>
+      <a href="tel:+15550000000" class="tbd">(555) 000-0000</a>
+      <a href="mailto:dispatch@g3transportinc.com">dispatch@g3transportinc.com</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="header">
+  <div class="wrap header__bar">
+    <a class="brand" href="index.html" aria-label="G3 Transport Inc home">
+      <img src="assets/img/logo-primary.jpg" alt="G3 Transport Inc" width="620" height="395">
+    </a>
+
+    <nav class="nav" id="primary-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="coverage.html">Coverage</a>
+      <a href="about.html">About</a>
+      <a href="carriers.html">Carriers</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="header__cta">
+      <a class="header__tel tbd" href="tel:+15550000000">(555) 000-0000</a>
+      <a class="btn btn--primary" href="contact.html#quote">Get a Quote</a>
+      <button class="navtoggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero hero--media">
+  <div class="hero__media" aria-hidden="true">
+    <img src="assets/img/photos/hero-poster.jpg" alt="" width="1440" height="810">
+    <video data-bg autoplay muted loop playsinline preload="metadata" poster="assets/img/photos/hero-poster.jpg">
+      <source src="assets/video/hero-road.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero__scrim" aria-hidden="true"></div>
+
+  <div class="wrap hero__inner">
+    <div>
+      <span class="eyebrow">Delivering California&rsquo;s freshness nationwide</span>
+      <h1>Fresh from the <em>Valley</em>.<br>Delivered coast to coast.</h1>
+      <p class="hero__sub">G3 Transport Inc is a licensed freight brokerage. We move refrigerated produce out of California to receivers, distribution centers and retail markets across all 48 contiguous states &mdash; on vetted carriers, on temperature, and tracked the whole way.</p>
+      <ul class="hero__points">
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          <span>Vetted reefer carriers only &mdash; authority, insurance and safety checked before every load</span>
+        </li>
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          <span>Capacity when the market is tight, including team service for short-shelf-life freight</span>
+        </li>
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          <span>One rep on your account &mdash; call a person, not a queue</span>
+        </li>
+      </ul>
+      <div class="btn-row">
+        <a class="btn btn--primary" href="contact.html#quote">Request a Rate</a>
+        <a class="btn btn--ghost" href="services.html">See What We Move</a>
+      </div>
+    </div>
+
+    <!-- Quick quote card -->
+    <aside class="hero__card">
+      <h3>Get a rate today</h3>
+      <p>Send the lane and we&rsquo;ll come back with pricing and available capacity.</p>
+      <form data-demo-form>
+        <div class="field__row">
+          <div class="field">
+            <label for="h-from">Pickup <span class="req">*</span></label>
+            <input id="h-from" name="from" type="text" placeholder="Salinas, CA" required>
+          </div>
+          <div class="field">
+            <label for="h-to">Delivery <span class="req">*</span></label>
+            <input id="h-to" name="to" type="text" placeholder="Chicago, IL" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="h-commodity">Commodity</label>
+          <select id="h-commodity" name="commodity">
+            <option>Leafy greens &amp; lettuce</option>
+            <option>Berries &amp; soft fruit</option>
+            <option>Citrus</option>
+            <option>Tomatoes &amp; peppers</option>
+            <option>Melons</option>
+            <option>Root vegetables</option>
+            <option>Mixed / other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="h-phone">Phone <span class="req">*</span></label>
+          <input id="h-phone" name="phone" type="tel" placeholder="(555) 555-5555" required>
+        </div>
+        <button class="btn btn--primary btn--wide" type="submit">Send Request</button>
+        <p class="form__note">Blueprint demo &mdash; this form is not connected to an inbox yet.</p>
+        <div class="formmsg">Thanks &mdash; one of our reps will follow up shortly.</div>
+      </form>
+    </aside>
+  </div>
+
+  <div class="scrollcue" aria-hidden="true"><span>Scroll</span><i></i></div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section class="stats">
+  <div class="wrap">
+    <div class="stats__grid">
+      <div class="stat">
+        <div class="stat__num">48</div>
+        <div class="stat__label">Contiguous states</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num tbd">000</div>
+        <div class="stat__label">Vetted carriers</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num">24<span>/</span>7</div>
+        <div class="stat__label">Coverage &amp; tracking</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num tbd">2024</div>
+        <div class="stat__label">Brokering produce since</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section section--cream">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">What we do</span>
+      <h2>Built around one job: produce that arrives fresh</h2>
+      <p class="lead">Every lane we cover starts in a California growing region and ends at a receiver who expects the load cold, complete and on schedule. We find the truck, hold the carrier to the standard, and stay on the load until it is delivered.</p>
+    </div>
+
+    <div class="grid g-3">
+      <article class="card card--photo reveal">
+        <span class="media media--zoom">
+          <img src="assets/img/photos/reefer-row.jpg" alt="A line of refrigerated trailers staged at a yard" width="1400" height="788" loading="lazy">
+        </span>
+        <div class="card__body">
+          <div class="icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="6" width="14" height="12" rx="2"></rect><path d="M15 9h4l4 4v5h-8z"></path><circle cx="6" cy="19" r="2"></circle><circle cx="18" cy="19" r="2"></circle></svg>
+          </div>
+          <h3>Refrigerated truckload</h3>
+          <p>Full-truckload reefer capacity from California packing houses and cooling facilities to receivers nationwide. Set point written into the rate confirmation and verified at pickup.</p>
+          <a class="card__link" href="services.html#reefer">Explore reefer service &rarr;</a>
+        </div>
+      </article>
+
+      <article class="card card--photo reveal">
+        <span class="media media--zoom">
+          <img src="assets/img/photos/truck-highway.jpg" alt="Semi truck running a highway through open country" width="1600" height="900" loading="lazy">
+        </span>
+        <div class="card__body">
+          <div class="icon icon--red" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15.5 14"></polyline></svg>
+          </div>
+          <h3>Expedited &amp; team runs</h3>
+          <p>Short-shelf-life freight that cannot sit. We source team carriers that keep the wheels turning coast to coast, so berries and greens hit the dock inside the window.</p>
+          <a class="card__link" href="services.html#expedited">See transit times &rarr;</a>
+        </div>
+      </article>
+
+      <article class="card card--photo reveal">
+        <span class="media media--zoom">
+          <img src="assets/img/photos/warehouse.jpg" alt="Worker moving pallets inside a distribution warehouse" width="800" height="1000" loading="lazy">
+        </span>
+        <div class="card__body">
+          <div class="icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          </div>
+          <h3>Multi-stop &amp; distribution</h3>
+          <p>Consolidated loads, multi-pick out of neighboring growing regions, and multi-drop delivery into DCs and wholesale markets on the same run.</p>
+          <a class="card__link" href="services.html#multistop">How it works &rarr;</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY US ============ -->
+<section class="section section--white">
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">Why shippers stay with us</span>
+      <h2>A broker that understands perishables</h2>
+      <p class="lead">Produce is not general freight. A late arrival or a drifting set point is not a service failure &mdash; it is a rejected load. We book every load with that in mind, and we do not hand your freight to a carrier we have not checked.</p>
+      <ul class="checks">
+        <li>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          <span><strong>Temperature discipline.</strong> Pre-cool and set-point requirements go on the rate confirmation, and we can pull the reefer download for any load.</span>
+        </li>
+        <li>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          <span><strong>Appointment reality.</strong> We plan around cooler hours and receiver windows, not optimistic map times.</span>
+        </li>
+        <li>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          <span><strong>Real updates.</strong> We track the truck and call you &mdash; you should not be phoning us to find out where your load is.</span>
+        </li>
+        <li>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          <span><strong>Carrier vetting on every load.</strong> Authority, insurance, safety history and fraud watch-lists checked before a truck is dispatched.</span>
+        </li>
+      </ul>
+      <div class="btn-row">
+        <a class="btn btn--green" href="about.html">How we vet carriers</a>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <div class="media-duo">
+        <span class="media media--4x5 media--shadow">
+          <img src="assets/img/photos/trailer-interior.jpg" alt="Inside a clean, empty refrigerated trailer ready to load" width="800" height="1000" loading="lazy">
+        </span>
+        <span class="media media--1x1 media-duo__b">
+          <img src="assets/img/photos/strawberries.jpg" alt="Freshly picked strawberries in a field crate" width="800" height="800" loading="lazy">
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FIELD VIDEO BAND ============ -->
+<section class="band">
+  <div class="band__bg" aria-hidden="true">
+    <img src="assets/img/photos/field-greens-poster.jpg" alt="" width="1280" height="720">
+    <video data-bg muted loop playsinline preload="none" poster="assets/img/photos/field-greens-poster.jpg">
+      <source src="assets/video/field-greens.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="wrap">
+    <div class="band__inner">
+      <span class="eyebrow">From the field to the dock</span>
+      <h2>The clock starts the moment it&rsquo;s cut</h2>
+      <p class="lead">Leafy greens lose shelf life by the hour. We line the truck up before the load is ready, hold the carrier to the set point, and keep it moving &mdash; because every hour saved at origin is an hour your receiver gets back at the far end.</p>
+      <div class="btn-row">
+        <a class="btn btn--primary" href="services.html">How we cover a load</a>
+        <a class="btn btn--ghost" href="coverage.html">Where we deliver</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COVERAGE ============ -->
+<section class="section section--sand">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Where we run</span>
+      <h2>California out &mdash; every major market in</h2>
+      <p class="lead">We cover the Central Valley, the Salinas Valley, the Imperial Valley and the coastal growing regions, and deliver into produce markets and distribution centers nationwide.</p>
+    </div>
+
+    <span class="media media--21x9 media--shadow reveal" style="margin-bottom:34px">
+      <img src="assets/img/photos/aerial-farmland.jpg" alt="Aerial view of California farmland stretching to the horizon" width="1600" height="686" loading="lazy">
+    </span>
+
+    <div class="grid g-4">
+      <div class="region reveal">
+        <div class="region__top"><h3>Pacific NW</h3><span class="region__time tbd">1&ndash;2 days</span></div>
+        <p>Portland, Seattle, Spokane, Boise</p>
+      </div>
+      <div class="region reveal">
+        <div class="region__top"><h3>Southwest</h3><span class="region__time tbd">1&ndash;2 days</span></div>
+        <p>Phoenix, Las Vegas, Albuquerque, Salt Lake City</p>
+      </div>
+      <div class="region reveal">
+        <div class="region__top"><h3>Texas &amp; South</h3><span class="region__time tbd">2&ndash;3 days</span></div>
+        <p>Dallas, Houston, San Antonio, Oklahoma City</p>
+      </div>
+      <div class="region reveal">
+        <div class="region__top"><h3>Midwest</h3><span class="region__time tbd">3&ndash;4 days</span></div>
+        <p>Chicago, Kansas City, Minneapolis, Detroit</p>
+      </div>
+      <div class="region reveal">
+        <div class="region__top"><h3>Southeast</h3><span class="region__time tbd">4&ndash;5 days</span></div>
+        <p>Atlanta, Nashville, Orlando, Charlotte</p>
+      </div>
+      <div class="region reveal">
+        <div class="region__top"><h3>Northeast</h3><span class="region__time tbd">4&ndash;5 days</span></div>
+        <p>Philadelphia, New York, Boston, Baltimore</p>
+      </div>
+      <div class="region reveal">
+        <div class="region__top"><h3>Mountain</h3><span class="region__time tbd">2&ndash;3 days</span></div>
+        <p>Denver, Cheyenne, Billings</p>
+      </div>
+      <div class="region reveal">
+        <div class="region__top"><h3>Backhauls</h3><span class="region__time">Ask us</span></div>
+        <p>Return freight into California on most lanes</p>
+      </div>
+    </div>
+
+    <div class="btn-row">
+      <a class="btn btn--green" href="coverage.html">Full lane map &amp; transit times</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMMODITIES ============ -->
+<section class="section section--white">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">What rides with us</span>
+      <h2>Produce, first and foremost</h2>
+      <p class="lead">If it comes out of a California field or packing shed and needs to stay cold, it is a load we know how to cover. Not on the list? Ask &mdash; odds are we have moved it.</p>
+    </div>
+
+    <div class="tiles reveal">
+      <figure class="tile">
+        <img src="assets/img/photos/greens-packed.jpg" alt="Packed leafy greens ready for the cooler" width="700" height="700" loading="lazy">
+        <b>Leafy greens</b>
+      </figure>
+      <figure class="tile">
+        <img src="assets/img/photos/strawberries.jpg" alt="Strawberries in a harvest crate" width="800" height="800" loading="lazy">
+        <b>Berries</b>
+      </figure>
+      <figure class="tile">
+        <img src="assets/img/photos/orange-grove.jpg" alt="Oranges ripening on the tree" width="700" height="700" loading="lazy">
+        <b>Citrus</b>
+      </figure>
+      <figure class="tile">
+        <img src="assets/img/photos/grapes.jpg" alt="Freshly picked green grapes in field crates" width="700" height="700" loading="lazy">
+        <b>Grapes</b>
+      </figure>
+    </div>
+
+    <ul class="chips" style="margin-top:26px">
+      <li>Lettuce &amp; romaine</li>
+      <li>Tomatoes</li>
+      <li>Peppers</li>
+      <li>Broccoli &amp; cauliflower</li>
+      <li>Carrots</li>
+      <li>Celery</li>
+      <li>Melons</li>
+      <li>Stone fruit</li>
+      <li>Avocados</li>
+      <li>Onions &amp; garlic</li>
+      <li>Potatoes</li>
+      <li>Almonds &amp; nuts</li>
+      <li>Mixed pallets</li>
+    </ul>
+
+    <div class="btn-row">
+      <a class="btn btn--primary" href="contact.html#quote">Ask about your commodity</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="section section--dark">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">How a load runs</span>
+      <h2>Simple to book. Watched all the way.</h2>
+    </div>
+    <div class="steps">
+      <div class="step reveal">
+        <h4>Send the lane</h4>
+        <p>Pickup, delivery, commodity, weight and appointment window. Call or use the quote form.</p>
+      </div>
+      <div class="step reveal">
+        <h4>Get a rate</h4>
+        <p>Pricing and capacity back to you fast, with the transit time we can actually hold.</p>
+      </div>
+      <div class="step reveal">
+        <h4>We cover it</h4>
+        <p>A vetted carrier is assigned and confirmed in writing &mdash; set point, appointments and seal requirements included.</p>
+      </div>
+      <div class="step reveal">
+        <h4>Tracked to the dock</h4>
+        <p>Location updates in transit, then proof of delivery and temperature records after unload.</p>
+      </div>
+    </div>
+
+    <div class="strip reveal" style="margin-top:52px">
+      <span class="media media--zoom"><img src="assets/img/photos/harvest-crew.jpg" alt="Harvest crew working a California field" width="1200" height="800" loading="lazy"></span>
+      <span class="media media--zoom"><img src="assets/img/photos/packing-line.jpg" alt="Berries moving down a packing line" width="900" height="600" loading="lazy"></span>
+      <span class="media media--zoom"><img src="assets/img/photos/truck-front.jpg" alt="Tractor unit rolling out on the highway" width="700" height="875" loading="lazy"></span>
+      <span class="media media--zoom"><img src="assets/img/photos/market-aisle.jpg" alt="Fresh produce on display at a retail market" width="900" height="600" loading="lazy"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIAL ============ -->
+<section class="section section--cream">
+  <div class="wrap">
+    <p class="note"><strong>Blueprint note:</strong> replace with a real customer quote and permission to use their name, or remove this section entirely.</p>
+    <div class="grid g-2">
+      <blockquote class="quote">
+        <p>&ldquo;<span class="tbd">Placeholder testimonial &mdash; a shipper or receiver describing an on-time, on-temp delivery during peak season.</span>&rdquo;</p>
+        <footer>&mdash; <span class="tbd">Name, Title, Company</span></footer>
+      </blockquote>
+      <blockquote class="quote">
+        <p>&ldquo;<span class="tbd">Placeholder testimonial &mdash; a produce broker describing communication and claim-free service.</span>&rdquo;</p>
+        <footer>&mdash; <span class="tbd">Name, Title, Company</span></footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BAND ============ -->
+<section class="band band--center">
+  <div class="band__bg" aria-hidden="true">
+    <img src="assets/img/photos/truck-highway.jpg" alt="" width="1600" height="900" loading="lazy">
+  </div>
+  <div class="wrap">
+    <div class="band__inner">
+      <span class="eyebrow" style="justify-content:center">Ready when you are</span>
+      <h2>Have a load leaving California?</h2>
+      <p class="lead">Send us the lane and we will come back with a rate and a truck. Someone answers around the clock, including harvest weekends.</p>
+      <div class="btn-row">
+        <a class="btn btn--primary" href="contact.html#quote">Request a Rate</a>
+        <a class="btn btn--ghost" href="tel:+15550000000">Call <span class="tbd">(555) 000-0000</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <span class="footer__logo"><img src="assets/img/logo-primary.jpg" alt="G3 Transport Inc" width="620" height="395"></span>
+        <p>Licensed freight brokerage arranging refrigerated produce transportation out of California to markets across the United States.</p>
+        <p class="muted" style="font-size:.85rem">Broker MC <span class="tbd">[TBD]</span> &middot; USDOT <span class="tbd">[TBD]</span></p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="coverage.html">Coverage</a></li>
+          <li><a href="carriers.html">Haul for G3</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#reefer">Refrigerated truckload</a></li>
+          <li><a href="services.html#expedited">Expedited &amp; team</a></li>
+          <li><a href="services.html#multistop">Multi-stop loads</a></li>
+          <li><a href="services.html#dry">Dry van &amp; backhaul</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Freight desk</h4>
+        <ul>
+          <li><a class="tbd" href="tel:+15550000000">(555) 000-0000</a></li>
+          <li><a href="mailto:dispatch@g3transportinc.com">dispatch@g3transportinc.com</a></li>
+          <li class="tbd">[Street address], [City], CA [ZIP]</li>
+          <li>Available 24/7</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div>&copy; <span data-year>2026</span> G3 Transport Inc. All rights reserved.</div>
+      <div>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms</a>
+        <a href="carriers.html">Carriers</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
