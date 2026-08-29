@@ -1,0 +1,11 @@
+# G3 Transport Inc - client review blueprint
+#
+# This site is a draft under review and contains placeholder content
+# (fake phone numbers, TBD credentials, stock imagery). It should NOT be
+# indexed by search engines yet.
+#
+# >>> DELETE THIS FILE, OR CHANGE Disallow TO Allow, BEFORE LAUNCH <<<
+# Leaving it in place will keep the live site out of Google entirely.
+
+User-agent: *
+Disallow: /

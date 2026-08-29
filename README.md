@@ -27,6 +27,34 @@ though the videos and relative paths behave best over HTTP.
 | `contact.html` | Quote form, contact details, FAQ |
 | `blueprint.html` | **Internal review page** — sitemap, logo options, open items, build status. Delete before launch. |
 
+## Hosting on GitHub Pages
+
+The site is plain static files at the repo root, so Pages needs no build step.
+
+**Enable it:** repo **Settings** -> **Pages** -> under *Build and deployment* set
+Source to **Deploy from a branch**, Branch to **main**, folder to **/ (root)**, then **Save**.
+First publish takes a minute or two.
+
+Live URL: <https://skytransportsolutions-it.github.io/G3TransportBrokerage/>
+
+Every push to  republishes automatically.
+
+Two files support this:
+
+-  — tells Pages to serve the files as-is instead of running them through Jekyll.
+-  — **blocks search engines while this is a review draft.** It must be deleted (or
+  flipped to ) before launch, or the live site will never appear in Google.
+
+### Before this becomes the real public site
+
+-  is reachable by anyone with the URL. It carries , but it is not private.
+  Delete it before launch, or move the review to a private channel.
+- The whole site is public once Pages is on, placeholder phone numbers and all. Fine for client
+  review; not fine to hand to customers.
+- A custom domain (e.g. ) is set under the same Settings -> Pages screen, which
+  writes a  file to the repo. Point a DNS  record at
+   first, then enable *Enforce HTTPS*.
+
 ## Read this before editing
 
 - **[BLUEPRINT.md](BLUEPRINT.md)** — what is built, what is placeholder, and what the client still
